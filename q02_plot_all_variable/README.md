@@ -12,7 +12,7 @@ This assignment comprises of loading the dataframe and visualizing all the varia
 
 | Parameter | dtype | argument type | default value | description |
 | --- | --- | --- | --- | --- |
-| variable | pd.DataFrame | compulsory |  dataframe to be loaded |
+| variable | pd.DataFrame | compulsory | | dataframe to be loaded |
 
 ### Returns:
 

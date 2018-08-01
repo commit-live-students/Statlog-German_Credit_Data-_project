@@ -12,10 +12,10 @@ You are free to use any model you want to apply which has been taught to you.
 
 | Parameter | dtype | argument type | default value | description |
 | --- | --- | --- | --- | --- | 
-| X_train | DataFrame | compulsory |Dataframe containing feature variables(train) |
-| X_test | DataFrame |compulsory | Dataframe containing feature variables(test) |
-| y_train | Series/DataFrame |compulsory | Target Variable(train)|
-| y_test | Series/DataFrame |compulsory | Target Variable(test) |
+| X_train | DataFrame | compulsory ||Dataframe containing feature variables(train) |
+| X_test | DataFrame |compulsory || Dataframe containing feature variables(test) |
+| y_train | Series/DataFrame |compulsory || Target Variable(train)|
+| y_test | Series/DataFrame |compulsory || Target Variable(test) |
 
 ### Returns:
 

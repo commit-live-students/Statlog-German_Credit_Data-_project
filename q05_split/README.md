@@ -13,7 +13,7 @@ Note: In practice, we denote dependent variables with capital X and target varia
 
 | Parameter | dtype | argument type | default value | description |
 | --- | --- | --- | --- | --- |
-| variable | pd.DataFrame | compulsory |  dataframe to be loaded |
+| variable | pd.DataFrame | compulsory | | dataframe to be loaded |
 | test_size | float | compulsory | 0.3 | split % of test |
 | random_state | int | compulsory | 0 | fixing the randomness of the split |
 

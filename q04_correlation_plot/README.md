@@ -11,7 +11,7 @@ and gives us the idea which variables would have significant impact on target va
 ### Parmeters :
 | Parameter | dtype | argument type | default value | description |
 | --- | --- | --- | --- | --- |
-| variable | pd.DataFrame | compulsory |  dataframe to be loaded |
+| variable | pd.DataFrame | compulsory | | dataframe to be loaded |
 
 
 ### Returns:

@@ -10,7 +10,7 @@ Before we can model and predict, we need to encode all the categorical features
 ### Parmeters :
 | Parameter | dtype | argument type | default value | description |
 | --- | --- | --- | --- | --- |
-| variable | pd.DataFrame | compulsory |  dataframe to be loaded |
+| variable | pd.DataFrame | compulsory | | dataframe to be loaded |
 
 ### Returns:
 | Return | dtype | description |
