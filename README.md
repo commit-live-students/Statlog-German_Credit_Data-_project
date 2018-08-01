@@ -1,6 +1,6 @@
 # Statlog(German_Credit_Data) Project
 
-The original dataset contains 1000 entries with 20 categorial/symbolic attributes prepared by Prof. Hofmann. In this dataset, each entry represents a person who takes a credit by a bank. Each person is classified as good or bad credit risks according to the set of attributes. The link to the original dataset can be found below.
+The original dataset contains 1000 entries with 21 categorial/symbolic attributes prepared by Prof. Hofmann. In this dataset, each entry represents a person who takes a credit by a bank. Each person is classified as good or bad credit risks according to the set of attributes. 
 
 ## Data Set Information:
 
@@ -10,11 +10,11 @@ For algorithms that need numerical attributes, Strathclyde University produced t
 
 This dataset requires use of a cost matrix (see below) 
 
-..... 1 2 
----------------------------- 
-1 0 1 
------------------------ 
-2 5 0 
+|  + | 1   | 2 |
+| --- | --- | --- |
+| 1   | 0   | 1 |
+| 2   | 5   | 0 |
+
 
 (1 = Good, 2 = Bad) 
 
@@ -32,5 +32,4 @@ Note : DATA attribute Information is given in the below link
 - How to perform feature engineering and feature selection
 - Able to perform visualization.
 - Working knowledge of algorithms such as decision trees and logistic regression
-
 
