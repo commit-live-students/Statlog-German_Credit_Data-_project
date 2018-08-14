@@ -13,8 +13,8 @@ df = q05_split(data, 0.3 ,0)
 
 
 class Test_splits(TestCase):
-      def test_args(self):
-        arg = getargspec(q05_split).args
+    def test_args(self):
+        arg = getfullargspec(q05_split).args
         self.assertEqual(len(arg), 3, "Expected argument(s) %d, Given %d" % (3, len(arg)))
 
     def test_returns_X_train(self):
