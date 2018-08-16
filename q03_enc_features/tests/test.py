@@ -15,4 +15,4 @@ class Test_encode_features(TestCase):
         self.assertEqual(len(arg), 1, "Expected argument(s) %d, Given %d" % (1, len(arg)))
 
     def test_return_type(self):
-        self.assertEqual(df[0].shape, (999, 21), "The Expected return type do not match with the return type")
+        self.assertEqual(df[0].shape, (1000, 21), "The Expected return type do not match with the return type")
