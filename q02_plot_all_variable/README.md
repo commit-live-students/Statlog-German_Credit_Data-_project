@@ -1,23 +1,17 @@
-# Plot all Variable
+# Let's visualize all features 
 
-This assignment comprises of loading the dataframe and visualizing all the variables.
+This assignment comprises of loading the structured data and applying some operations to it.
 
 ## Write a function `q02_plot_all_variable` that :
 
-- Makes use of the previously created dataframe from q01_load_data.
-- Plots histogram for numerical features and bar plot for categorical features to assess their distribution 
+- Call the previous function from Question 1 
+- Use Ceil function to convert the  columns to interger value so as to determine the number of rows in the plot
+- Use enumerate function in the for loop to plot each feature with each other
+- Use if Condition to differential between categorical and numeric features
+- Read Matplotlib documentation for reference
 
 
 ### Parameters :
-
 | Parameter | dtype | argument type | default value | description |
 | --- | --- | --- | --- | --- |
-| variable | pd.DataFrame | compulsory | | dataframe to be loaded |
-
-### Returns:
-
-There is no return parameter for the function. 
-
-The plot should be similar to 
-
-https://github.com/commit-live-students/Statlog-German_Credit_Data-_project/blob/master/images/q02_plot_all_variable.png
+| path | string | compulsory |  | path of the csv file location |

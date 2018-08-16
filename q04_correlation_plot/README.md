@@ -1,21 +1,20 @@
-# Correlation Plot
+# How close your features are related to target variable?
 
 Correlation gives us the idea about how the are the features related to the target variable
 and gives us the idea which variables would have significant impact on target variable.
 
 ## Write a function `q04_correlation_plot` that:
-- Makes use of the previously created dataframe from q03_encode_features.
+- Call the previous function from Question 3
 - Plots correlation measure of numeric variables.
 
 
-### Parmeters :
+### Parameters:
+
 | Parameter | dtype | argument type | default value | description |
-| --- | --- | --- | --- | --- |
-| variable | pd.DataFrame | compulsory | | dataframe to be loaded |
+| --- | --- | --- | --- | --- | 
+| path | string | compulsory |  | path of the csv file location |
 
 
 ### Returns:
 
-Returns nothing. The plot should look similar to 
-
-https://github.com/commit-live-students/Statlog-German_Credit_Data-_project/blob/master/images/heatmap.png
+None

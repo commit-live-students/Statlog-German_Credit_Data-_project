@@ -1,18 +1,21 @@
-# Encoding Features
+# How to deal with categorical features?
 
-Before we can model and predict, we need to encode all the categorical features
+This assignment comprises of loading the structured data and applying some operations to it.
 
 ## Write a function `q03_encode_features` that :
 
-- Makes use of the previously created dataframe from q01_load_data
-- Label encodes all categorical features(using sklearn Label Encoder)
-
-### Parmeters :
+- Call the previous function from Question 1 
+- Make copy of the DataFrame and initialize a empty dictionary 
+- Use `For loop` to iterate through the columns and check for categorical variable and perform a encoding techniques
+- Use Labelencoder function to do the encoding technique
+   
+### Parameters :
 | Parameter | dtype | argument type | default value | description |
 | --- | --- | --- | --- | --- |
-| variable | pd.DataFrame | compulsory | | dataframe to be loaded |
+| path | string | compulsory |  | path of the csv file location |
 
 ### Returns:
 | Return | dtype | description |
 | --- | --- | --- |
 | variable | pandas.Dataframe | Dataframe with above operations inculcated |
+| variable | Dictionary | Column names |
