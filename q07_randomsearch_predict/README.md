@@ -5,14 +5,17 @@ You are free to use any model you want to apply which has been taught to you.
 
 ## Write a function `q07_randomsearch_predict` that:
 
-- Call the previous function from Question 6
-- Build your own model and return the `roc_auc_score` at the end which should be greater than 0.63.
+- Makes use of the return variables of q05_feature_preprocessing
+- Models the train according to your data and returns the `roc_auc_score`
 
 ### Parameters:
 
 | Parameter | dtype | argument type | default value | description |
 | --- | --- | --- | --- | --- | 
-| path | string | compulsory |  | path of the csv file location |
+| X_train | DataFrame | compulsory ||Dataframe containing feature variables(train) |
+| X_test | DataFrame |compulsory || Dataframe containing feature variables(test) |
+| y_train | Series/DataFrame |compulsory || Target Variable(train)|
+| y_test | Series/DataFrame |compulsory || Target Variable(test) |
 
 ### Returns:
 
